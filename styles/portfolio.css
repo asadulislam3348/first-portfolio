@@ -1,0 +1,135 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.secondery-bg{
+
+  background-color:#FFF8F3;
+}
+
+
+
+  .text-primary{
+    color: #FD6E0A;
+  } 
+  .dark-2{
+    color: #474747;
+  } 
+  .section-tital{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+
+  }
+.section-description{
+font-size: 18px;
+font-weight:;
+color: #757575;
+
+
+}
+
+
+
+  
+  .btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color:white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+  }
+/* header style */
+.header{
+  background-image:url('../images/developer.png') , url(../images/header_bg.png);
+  background-repeat:no-repeat ;
+  background-position: top left, bottom right;
+}
+
+/* Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-tital{
+font-weight: 800;
+font-size: 45px;
+}
+
+nav ul li {
+   list-style: none;
+   margin-right: 51px;
+}
+nav li a  {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+/* bannar style */
+
+.bannar{
+display: flex;
+justify-content: space-between;
+margin: 0 35px 0 230px;
+
+}
+.bannar-content{
+  max-width: 585px;
+  height: 356px;
+
+}
+
+.bannat-greetings{
+  font-size: 45px;
+  font-weight: 600px;
+
+}
+.bannar-tital{
+color:#181818;
+font-size: 85px;
+font-weight: bold;
+
+}
+.bannar-profile-pic{
+width: 584px;
+height: 676px;
+            
+}
+/* main-style */
+main{
+max-width: 1140px;
+  margin: auto;
+}
+
+
+/* about-style */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+
+}
+.item-description{
+  font-weight: 700;
+}
